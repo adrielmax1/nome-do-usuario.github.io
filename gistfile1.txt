@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Descubra o segredo para ter cabelos perfeitos em minutos com nossa escova inovadora. Com frete grátis e pagamento na entrega!">
+    <title>🔥 O SEGREDO dos Cabelos Perfeitos em MINUTOS! 🔥</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Reset e configuração básica */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom, #F8C8DC, #B5FFFC);
+            color: #333333;
+            text-align: center;
+        }
+        /* Container principal */
+        .container {
+            max-width: 100%;
+            margin: 10px auto;
+            padding: 15px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+            color: #D40000;
+            font-weight: 700;
+        }
+        p {
+            font-size: 14px;
+            margin-bottom: 10px;
+        }
+        .highlight {
+            font-size: 20px;
+            color: #D40000;
+            font-weight: bold;
+        }
+        /* Vídeo - Tamanho adaptado para celular */
+        iframe {
+            width: 100%;
+            height: 200px;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 15px;
+        }
+        /* Botão */
+        .button {
+            display: block;
+            width: 90%;
+            margin: 20px auto;
+            padding: 14px;
+            background: linear-gradient(45deg, #28A745, #218838);
+            color: white;
+            font-size: 16px;
+            font-weight: bold;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s, transform 0.3s;
+        }
+        .button:hover {
+            background-color: #218838;
+            transform: scale(1.05);
+        }
+        /* Benefícios */
+        .benefits {
+            text-align: left;
+            margin: 15px 0;
+            padding-left: 10%;
+        }
+        .benefits ul {
+            list-style-type: disc;
+            margin-left: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        /* Preço */
+        .price {
+            font-size: 20px;
+            color: #D40000;
+            font-weight: bold;
+            margin: 15px 0;
+        }
+        /* Contagem regressiva */
+        #countdown {
+            font-size: 18px;
+            font-weight: bold;
+            color: #FF5733;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.4);
+            margin-bottom: 15px;
+        }
+        /* FAQ (Accordion) */
+        .faq {
+            text-align: left;
+            margin: 20px 0;
+            padding-left: 10%;
+        }
+        .faq h3 {
+            font-size: 18px;
+            color: #D40000;
+        }
+        .faq ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .faq li {
+            font-size: 14px;
+            margin-bottom: 10px;
+            cursor: pointer;
+            padding: 12px;
+            background-color: #f8f8f8;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+        .faq li:hover {
+            background-color: #e7f7e7;
+        }
+        /* Accordion expandido */
+        .faq-content {
+            display: none;
+            padding-left: 20px;
+            font-size: 14px;
+            color: #666;
+        }
+        .faq li.active .faq-content {
+            display: block;
+        }
+
+        /* Responsividade para dispositivos móveis */
+        @media (max-width: 768px) {
+            h1 {
+                font-size: 22px;
+            }
+            .highlight {
+                font-size: 18px;
+            }
+            p, .benefits ul, .faq li {
+                font-size: 14px;
+            }
+            .button {
+                font-size: 16px;
+                padding: 12px;
+            }
+            #countdown {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔥 O SEGREDO dos Cabelos Perfeitos em MINUTOS! 🔥</h1>
+        <p class="highlight">✅ Frete Grátis + Pagamento Somente na Entrega – Sem Complicação!</p>
+        <p>🚀 Receba Amanhã na sua Casa por Apenas <span class="price">R$139,99!</span></p>
+
+        <!-- Contagem Regressiva -->
+        <div id="countdown">🔥 Só hoje! Oferta acaba em: --:-- 🔥</div>
+
+        <!-- Vídeo de demonstração (automático, sem controles e sem possibilidade de pausá-lo) -->
+        <iframe 
+            src="https://www.youtube.com/embed/VQ5TSpVvC_c?autoplay=1&controls=0&modestbranding=1&showinfo=0&rel=0&fs=0&iv_load_policy=3" 
+            allow="autoplay; fullscreen" 
+            frameborder="0">
+        </iframe>
+
+        <!-- Benefícios -->
+        <div class="benefits">
+            <h2>Benefícios:</h2>
+            <ul>
+                <li>Seca, alisa e modela com facilidade.</li>
+                <li>Tecnologia iônica que reduz o frizz.</li>
+                <li>Design ergonômico para manuseio confortável.</li>
+                <li>Adequada para todos os tipos de cabelo.</li>
+            </ul>
+        </div>
+
+        <!-- Botão de Compra -->
+        <a href="https://entrega.logzz.com.br/pay/memmep465/1-unidade-escova-alisadora" class="button">💥 Garanta a Sua Escova Agora com FRETE GRÁTIS! 💥</a>
+
+        <!-- Perguntas Frequentes (Accordion) -->
+        <div class="faq">
+            <h3>Perguntas Frequentes:</h3>
+            <ul>
+                <li onclick="toggleFAQ(this)">
+                    Quanto tempo leva para receber?
+                    <div class="faq-content">A entrega é feita em até 24 horas em todo o Brasil!</div>
+                </li>
+                <li onclick="toggleFAQ(this)">
+                    Posso pagar na entrega?
+                    <div class="faq-content">Sim! Pagamento somente na entrega, sem preocupação.</div>
+                </li>
+                <li onclick="toggleFAQ(this)">
+                    Funciona para todos os tipos de cabelo?
+                    <div class="faq-content">Sim! A escova é ideal para todos os tipos de cabelo.</div>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+
+    <script>
+        function startCountdown(durationInMinutes) {
+            let time = durationInMinutes * 60;
+            let countdownElement = document.getElementById('countdown');
+            let interval = setInterval(() => {
+                let minutes = Math.floor(time / 60);
+                let seconds = time % 60;
+                countdownElement.innerHTML = `🔥 Só hoje! Oferta acaba em: ${minutes}m ${seconds}s 🔥`;
+                time--;
+                if (time < 0) clearInterval(interval);
+            }, 1000);
+        }
+        startCountdown(15); // Oferta expira em 15 minutos
+
+        // Função do Accordion FAQ
+        function toggleFAQ(element) {
+            element.classList.toggle("active");
+        }
+    </script>
+</body>
+</html>
+
